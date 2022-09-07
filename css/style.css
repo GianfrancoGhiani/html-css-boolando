@@ -14,6 +14,7 @@ body{
     position: fixed;
     width: 100%;
     top:0;
+    z-index: 5000;
 }
 .size-pos{
     margin:0 auto;
@@ -35,7 +36,8 @@ li{
     position: relative;
 }
 .wrapper{
-    width: calc(100% / 3);
+    width: calc((100% - 20px) / 3);
+    cursor: pointer;
 }
 .img{
     width: 100%;
@@ -55,7 +57,10 @@ li{
     font-size: 35px;
     position: absolute;
     right:0;
-    top:3%;
+    top:2%;
+}
+.heart:hover{
+    color: #ff0000;
 }
 .discount{
     background-color: #ff0000;
@@ -71,6 +76,23 @@ li{
     position: absolute;
     left:0;
     bottom:7%;
+}
+.mark{
+    font-size: 12px;
+    color: #212121;
+}
+h5{
+    text-transform: uppercase;
+}
+.red{
+    color: #ff0000;
+    font-weight: bold;
+}
+.tot{
+    text-decoration: line-through;
+}
+.price{
+    font-size: 12px;
 }
 
 /* specific selector */
@@ -96,7 +118,9 @@ li{
 .first-row{
     margin-top: 100px;
 }
-
+.scnd-row{
+    margin-top: 50px;
+}
 .scnd{
     margin: 0 10px;
 }
