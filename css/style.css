@@ -19,9 +19,10 @@ body{
     margin:0 auto;
     width: 80%;
     max-width: 1170px;
-    height: 50px;
 }
-
+.wt-txt{
+    color: #ffffff;
+}
 li{
     list-style: none;
 }
@@ -30,11 +31,58 @@ li{
     justify-content: space-between;
     align-items: center;
 }
+.label{
+    position: relative;
+}
+.wrapper{
+    width: calc(100% / 3);
+}
+.img{
+    width: 100%;
+}
+.wrapper:hover .img-2{
+    display: block;
+}
+.wrapper:hover .img-1{
+    display: none;
+}
+.heart{
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    right:0;
+    top:3%;
+}
+.discount{
+    background-color: #ff0000;
+    padding: 2px 5px;
+}
+.ecology{
+    background-color: #008000;
+    padding: 2px 5px;
+}
+.spec{
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    left:0;
+    bottom:7%;
+}
+
+/* specific selector */
+
 .top-bar{
     background-color: #ff6900;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
+}
+.top-bar section{
+    height: 50px;
+
 }
 .top-bar img{
     width: 13%;
@@ -44,4 +92,14 @@ li{
 }
 .icons{
     width: 60px;
+}
+.first-row{
+    margin-top: 100px;
+}
+
+.scnd{
+    margin: 0 10px;
+}
+.img-2{
+    display: none;
 }
