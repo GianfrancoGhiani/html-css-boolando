@@ -119,11 +119,29 @@ h5{
     margin-top: 100px;
 }
 .scnd-row{
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .scnd{
     margin: 0 10px;
 }
 .img-2{
     display: none;
+}
+.bot-bar{
+    background-color: #1a1a1a;
+}
+.bot-bar li{
+    padding: 5px;
+    padding-left: 0;
+    justify-content: flex-start;
+}
+.foot-txt{
+    font-size: 12px;
+    padding: 25px 0;
+}
+.bold{
+    font-weight: bold;
+}
+.imp{
+    font-size: 16px;
 }
